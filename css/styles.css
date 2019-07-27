@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-brand {
+    /* padding: 0 15px; */
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/menu4.svg") !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: 0;
+}
+
+.active-home {
+    border-bottom: 2px solid #000;
+}
+
+/* .nav-item:hover {
+    border-bottom: 2px solid #000;
+} */
+
+.nav-btn {
+    background: #110E0E;
+    color: #fff;
+    width: 72px;
+    border-radius: 38px;
+}
+
+.commet {
+    color: #544D4D !important;
+    font-size: 14px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.card {
+    border: none;
+    margin-right: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-deck {
+        align-items: center;
+    }
+
+    .col-care-img {
+        position: absolute;
+    }
+
+    .first-card {
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+    }
+
+    .mobile-nav-btn {
+        display: none;
+    }
+}
